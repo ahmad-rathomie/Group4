@@ -38,3 +38,10 @@ body{
     position: relative;
     top: 400px;
 }
+
+/* Contacts Part */
+.contactz{
+    background-color: aliceblue;
+    width: auto;
+    text-align: center;  
+}
