@@ -1,109 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        html{
-            scroll-behavior: smooth;
-        }
-        .container{
-            position:sticky;
-            background-color: aquamarine;
-            width: 1000px;
-            height: 50px;
-            display:flex;
-            justify-content:right;
-            
-            
-        }
-        .item{
-            background-color: cyan;
-            width: 100px;
-            height: 100x;
-            border: 2px solid black;
-            text-align: center;
-            
-            
-        }
-        .item:hover{
-            background-color:red;
-            cursor: pointer;
-            color: yellow;
-
-        }
-        .logo{
-            justify-content: left;
-        }
-        .contactz{
-            background-color: aliceblue;
-            width: auto;
-            text-align: center;  
-        }
-        h1,h4,h2,p{
-            font-family: 'Poppins', sans-serif;
-        }
-        #home,#aboutme,#project,#contact{
-            font-family: 'Poppins', sans-serif;
-        }
-        #ab{
-            justify-content: center;
-            text-align: justify;
-        }
-        .aboutme
-        {background-color: gold;
-            height: 400px;
-            width: 2000px;
-            margin: auto;
-            /* border: ; */
-            border-width: 50px;
-            border-style: initial;
-            justify-content: left;
-            
-        }
-        .p1{
-            padding: 10px;
-        }
-        .p2{
-            padding: 10px;
-        }
-        .p3{
-            padding: 10px; 
-        }
-    
-      
-       
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Group 4 Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&family=Playpen+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
-<body>
 
-    <div class="logo" id="logo">
-        <a href="index1.html">
-            <img src="lorem.avif" alt="lorem" height="100" width="100">
-        </a>
-    </div>
-
-    <div class="container">
-        
-        <a href="index1.html">
-            <div class="item" id="home">Home</div>
-        </a>
-
-        <a href="#ab">
-            <div class="item" id="aboutme">About Me</div>
-        </a>
-
-        <a href="#pj">
-            <div class="item" id="project">Projects</div>
-        </a>
-
-        <a href="#ct">
-            <div class="item" id="contact">Contact</div>
-        </a>
+</body>
     
+    <div class="container">
+        <div class="item" id="b1">Menu</div>
+        <div class="item" id="b2">About me</div>
+        <div class="item" id="b3">Projects</div>
+        <div class="item" id="b4">Contact us</div>
     </div>
+
+
+    <ul class="container">
+      <a style="text-decoration: none;" href="">
+        <li class="item" id="b1">Menu</li>
+      </a>
+      <a style="text-decoration: none;" href="">
+        <li class="item" id="b2">About me</li>
+      </a>
+      <a style="text-decoration: none;" href=""><li class="item" id="b3">Projects</li>
+    </a>
+      <a style="text-decoration: none;" href="">
+        <li class="item" id="b4">Contact us</li>
+      </a>
+    </ul>
+
+    <h1 class="title">Welcome to the Group 4 Website</h1>
+    
+
 
     <img src="lorem.avif" alt="lorem"><br>
     
@@ -121,19 +58,9 @@
                 <p class="p3">Name :Lorem ipsum 
                     <br> Background : 
                     <br> Skills : 
-                    <br> Interests :</p>
-                
+                    <br> Interests :</p>        
         
     </div>
-    <!-- <img src="lorem.avif" alt="lorem"><br> -->
-    
-    <!-- Projects -->
-    <p id="pj">Projects</p>
-    <img src="lorem.avif" alt="lorem"><br>
-    
-    <!-- Contact -->
-    <p id="ct">Contact</p>
-    <img src="lorem.avif" alt="lorem">
 
     <div class="contactz">
         <img src="location.jpg" alt="location">
@@ -162,12 +89,37 @@
 
 
 
-   
+<footer>
+    <div class="containerfooter">
+        <div class="containerf1">
+            <h1>AJT</h1>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <button>twitter</button>
+            <button>facebook</button>
+            <button>instagram</button>
+        </div>
+    
+        <div class="containerf2">
+            <h2>Services</h2>
+            <ul>
+              <li>Web Design</li>
+              <li>Web Development</li>
+              <li>Graphic Desgin</li>
+              <li>UI/UX Desgin</li>
+            </ul>
+        </div>
+    
+        <div class="containerf3">
+            <h2>Have a Questions?</h2>
+            <ul>
+              <li>203 Fake St. Mountain View, San Francisco, California, USAWeb Design</li>
+              <li>	+60123456789</li>
+              <li>	info@yourdomain.com</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+    
 </body>
 
-<footer>
-    <a href="#">
-    <h4><b>Back to the top</b></h4>
-</a>
-</footer>
 </html>
