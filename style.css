@@ -69,26 +69,39 @@ html{
 }
 
 /* Contacts Part */
+.map{
+    padding-top: 30px;
+}
 .contacth{
    margin-left: 60px;
+   font-style: italic;
 }
 .contact{
     font-family:'Courier New', Courier, monospace;
     display: flex;
     background-color: aliceblue;
     width: 1800px;
-    height: 500px;  
+    height: 550px;  
     text-align: center; 
+    padding: 10px;
+}
+
+
+.contactcontent{
+    display: flex; 
+    flex-direction: column;   
+}
+.contactcontent>div{
+    padding-left: 50px;
+    padding-right: 20px;
 }
 
 .cform{
-    margin-top: 30px;   
+    margin-top: 150px; 
+    margin-left: 150px;  
 }
 
 
-html{
-    scroll-behavior: smooth;
-}
 
 /* about me */
 h1,h4,h2,p{
