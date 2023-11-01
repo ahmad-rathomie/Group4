@@ -77,8 +77,43 @@ html{
 
 .containerfooter{
     display: flex;
-    
+}
 
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* about me */
+h1,h4,h2,p{
+    font-family: 'Poppins', sans-serif;
+}
+#home,#aboutme,#project,#contact{
+    font-family: 'Poppins', sans-serif;
+}
+#ab{
+    justify-content: center;
+    text-align: justify;
+}
+.aboutme
+{background-color: gold;
+    height: 400px;
+    width: 2000px;
+    margin: auto;
+    /* border: ; */
+    border-width: 50px;
+    border-style: initial;
+    justify-content: left;
+    
+}
+.p1{
+    padding: 10px;
+}
+.p2{
+    padding: 10px;
+}
+.p3{
+    padding: 10px; 
 }
 
 
