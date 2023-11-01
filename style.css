@@ -69,14 +69,20 @@ html{
 }
 
 /* Contacts Part */
-.contactz{
+.contacth{
+   margin-left: 60px;
+}
+.contact{
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
     background-color: aliceblue;
-    width: auto;
-    text-align: center;  
+    width: 1800px;
+    height: 500px;  
+    text-align: center; 
 }
 
-.containerfooter{
-    display: flex;
+.cform{
+    margin-top: 30px;   
 }
 
 
