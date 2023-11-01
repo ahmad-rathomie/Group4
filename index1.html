@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        html{
+            scroll-behavior: smooth;
+        }
         .container{
             position:sticky;
             background-color: aquamarine;
@@ -22,6 +26,7 @@
             border: 2px solid black;
             text-align: center;
             
+            
         }
         .item:hover{
             background-color:red;
@@ -29,7 +34,6 @@
             color: yellow;
 
         }
-
         .logo{
             justify-content: left;
         }
@@ -38,9 +42,43 @@
             width: auto;
             text-align: center;  
         }
+        h1,h4,h2,p{
+            font-family: 'Poppins', sans-serif;
+        }
+        #home,#aboutme,#project,#contact{
+            font-family: 'Poppins', sans-serif;
+        }
+        #ab{
+            justify-content: center;
+            text-align: justify;
+        }
+        .aboutme
+        {background-color: gold;
+            height: 400px;
+            width: 2000px;
+            margin: auto;
+            /* border: ; */
+            border-width: 50px;
+            border-style: initial;
+            justify-content: left;
+            
+        }
+        .p1{
+            padding: 10px;
+        }
+        .p2{
+            padding: 10px;
+        }
+        .p3{
+            padding: 10px; 
+        }
+    
+      
+       
     </style>
 </head>
 <body>
+
     <div class="logo" id="logo">
         <a href="index1.html">
             <img src="lorem.avif" alt="lorem" height="100" width="100">
@@ -69,12 +107,31 @@
 
     <img src="lorem.avif" alt="lorem"><br>
     
+    <!-- About Me -->
     <p id="ab">About Me</p>
-    <img src="lorem.avif" alt="lorem"><br>
+    <div class="aboutme">
+        <p class="p1">Name : Ahmad Rathomie bin Hasbullah 
+            <br> Background : Bachelors Degree in Information Technology (Informatics Media)
+            <br> Skills : Photography, Graphic Designing 
+            <br> Interests : Reading books and playing football</p>
+            <p class="p2">Name :Lorem ipsum 
+                <br> Background : 
+                <br> Skills : 
+                <br> Interests :</p>
+                <p class="p3">Name :Lorem ipsum 
+                    <br> Background : 
+                    <br> Skills : 
+                    <br> Interests :</p>
+                
+        
+    </div>
+    <!-- <img src="lorem.avif" alt="lorem"><br> -->
     
+    <!-- Projects -->
     <p id="pj">Projects</p>
     <img src="lorem.avif" alt="lorem"><br>
     
+    <!-- Contact -->
     <p id="ct">Contact</p>
     <img src="lorem.avif" alt="lorem">
 
@@ -98,14 +155,13 @@
             <input type="text" placeholder="Subject"><br>
             <textarea rows="5" cols="30" placeholder="Create a message here"></textarea>
         </form>
+        <div class="submit" >
+            <button type="button">Submit</button>
+        </div>
     </div>
 
 
 
-
-
-
-    
    
 </body>
 
