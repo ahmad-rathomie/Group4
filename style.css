@@ -96,16 +96,19 @@ body{
 #abomenu{
     position: absolute;
     left: 120px;
+    border-radius: 20px;
 }
 #promenu{
     justify-content: right;
     position: absolute;
     right: 120px;
+    border-radius: 20px;
 }
 #conmenu{
    position: absolute;
    left: 800px;
     bottom: 30px;
+    border-radius: 30px;
 }
 /* Contacts Part */
 .map{
