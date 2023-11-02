@@ -1,6 +1,6 @@
 /* html,head,body */
 body{
-    width: 100vw;
+    width: 99vw;
     height: auto;
     background-color: white;
 }
@@ -81,10 +81,13 @@ body{
     /* top: 60px; */
     background-color: aliceblue;
     margin-bottom: 3px;
+    border: 4px solid gray;
 }
 .logo{
     margin-bottom: -160px;
     margin-top: -50px;
+    /* height: 450px;
+    width: 450px; */
 }
 .phrase{
     text-align: center;
@@ -92,23 +95,27 @@ body{
     margin-top: 1px;
     margin-bottom: 20px;
     background-color: cyan;
+    border: 3px solid lightblue;
 }
 #abomenu{
     position: absolute;
     left: 120px;
     border-radius: 20px;
+    border: 3px solid black;
 }
 #promenu{
     justify-content: right;
     position: absolute;
     right: 120px;
     border-radius: 20px;
+    border: 3px solid black;
 }
 #conmenu{
    position: absolute;
    left: 800px;
     bottom: 30px;
     border-radius: 30px;
+    border: 3px solid black;
 }
 /* Contacts Part */
 .map{
