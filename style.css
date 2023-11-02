@@ -42,7 +42,7 @@ body{
     padding: 20px;
     border-collapse: collapse;
     border: 2px transparent black;
-    background-color: rgb(134, 190, 255);
+    background-color: rgb(0, 224, 224);
     font-weight: 700;
     font-size: 20px;
     color: black;
@@ -51,22 +51,22 @@ body{
 .item:hover{
     cursor: pointer;
     transition: 0.5s;
-    background-color: rgb(0, 195, 255);
+    background-color: cyan;
 }
 #b1active{
-    background-color: rgb(0, 195, 255);
+    background-color:cyan;
     margin-left: -40px;
 }
 #b2active{
-    background-color: rgb(0, 195, 255);
+    background-color: cyan;
     left: 140px;
 }
 #b3active{
-    background-color: rgb(0, 195, 255);
+    background-color: cyan;
     left: 320px;
 }
 #b4active{
-    background-color: rgb(0, 195, 255);
+    background-color: cyan;
     position: fixed;
     right: 10px;
     margin-right: -10px;
