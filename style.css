@@ -99,20 +99,20 @@ body{
 }
 #abomenu{
     position: absolute;
-    left: 120px;
+    left: 60vw;
     border-radius: 20px;
     border: 3px solid black;
 }
 #promenu{
     justify-content: right;
     position: absolute;
-    right: 120px;
+    right: 60vw;
     border-radius: 20px;
     border: 3px solid black;
 }
 #conmenu{
    position: absolute;
-   left: 800px;
+   left: 40vw;
     bottom: 30px;
     border-radius: 30px;
     border: 3px solid black;
