@@ -90,8 +90,22 @@ body{
     text-align: center;
     font-size: xx-large;
     margin-top: 1px;
-    margin-bottom: 1px;
+    margin-bottom: 20px;
     background-color: cyan;
+}
+#abomenu{
+    position: absolute;
+    left: 120px;
+}
+#promenu{
+    justify-content: right;
+    position: absolute;
+    right: 120px;
+}
+#conmenu{
+   position: absolute;
+   left: 800px;
+    bottom: 30px;
 }
 /* Contacts Part */
 .map{
