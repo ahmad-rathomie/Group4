@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Css Project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Group4"
+	}
+}
